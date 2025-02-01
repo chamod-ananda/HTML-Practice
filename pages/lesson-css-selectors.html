@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson css selectors</title>
+    <style>
+        /* h2 {
+            color: blueviolet;
+        } */
+        /* element selector */
+
+        /* class selectors */
+        /* .heading {
+            color: chocolate;
+        } */
+
+        /* id selector */
+        /* #title {
+            color: aqua;
+            background-color: black;
+        } */
+
+        /* attribute selector */
+        /* a[target="_blank"]{
+            color: red;
+        } */
+
+        /* descendant selectors */
+        /* div p{
+            color: orange;
+        } */
+
+        /* child selectors */
+        /* div > p {
+            color: blue;
+        } */
+
+        /* adjacent sibling selectors */
+        /* h2 + p {
+            color: palevioletred;
+        } */
+
+        /* general sibling selectors */
+        /* h1 ~ p {
+            color: brown;
+        } */
+
+        /* pseudo class selectors pseudo class kynne :first-child ekt*/
+        /* li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            color: purple;
+        }
+
+        li:nth-child(3) {
+            color: green;
+        } */
+
+        /* li:nth-child(odd) {
+            color: red;
+        }
+
+        li:nth-child(even) {
+            color: blue;
+        } */
+
+        ul:hover {
+            background-color: lightcoral;
+        }
+
+        p:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS selectors</h1>
+
+    <strong>1. Element Selectors</strong>
+    <br />
+    ======================================
+    <br />
+
+    <h2>Hello World....</h2>
+    <h2>HI....</h2>
+    <br>
+    <hr>
+
+    <strong>2. Class Selectors</strong>
+    <br />
+    ======================================
+    <br />
+
+    <h1 class="heading">heading 1</h1>
+    <h2 class="heading">heading 2</h2>
+    <h3 class="heading">heading 3</h3>
+    <h4 class="heading">heading 4</h4>
+    <p class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis reprehenderit odit sit aliquam inventore fugit sapiente aut possimus labore ea architecto vel laboriosam asperiores, expedita voluptate cupiditate voluptatum iusto!</p>
+    <br>
+    <hr>
+
+    <strong>3. ID Selectors</strong>
+    <br />
+    ======================================
+    <br />
+
+    <h2 id="title">My Title</h2>
+    <br>
+    <hr>
+
+    <strong>4. Attribute Selectors</strong>
+    <br />
+    ======================================
+    <br />
+
+    <a href="www.google.com" target="_blank">Click Here</a>
+    <br>
+    <hr>
+
+    <strong>5. Descendant Selectors (space)</strong>
+    <br />
+    ======================================
+    <br />
+
+    <p>Hey You!</p>
+
+    <!-- div ge child la kiyala allanne space eken -->
+    <div>
+        <p>One</p>
+        <p>Two</p>
+        <p>Three</p>
+    </div>
+    <br>
+    <hr>
+
+    <strong>6. Child Selectors (>)</strong>
+    <br />
+    ======================================
+    <br />
+
+    <!-- div ge direct child allanne > meken -->
+    <div>
+        <p>This paragraph is a direct child of div.</p>
+        <section>
+            <p>This paragraph is inside a section, not a direct child of div.</p>
+        </section>
+    </div>
+    <br>
+    <hr>
+
+    <strong>7. Adjacent Sibling Selectors (+)</strong>
+    <br />
+    ======================================
+    <br />
+
+    <!-- h2 ge idan ilagata inn kenata tmai apply wenne -->
+    <h2>Adjacent</h2>
+    <p>Hello One</p>
+    <p>Hello Two</p>
+    <br>
+    <hr>
+
+    <strong>8. General Sibling Selectors (~)</strong>
+    <br />
+    ======================================
+    <br />
+
+    <!-- h1 ge sibling lata witarai apply wenne hello world ta apply wen na-->
+    <h1>Main Heading</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <div>
+        <p>
+            Hello World!!!!
+        </p>
+    </div>
+
+    <strong>9. pseudo class Selectors</strong>
+    <br />
+    ======================================
+    <br />
+
+    <ul>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>HI BABY</p>
+</body>
+</html>
