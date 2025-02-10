@@ -31,7 +31,7 @@
 }
 
 .lesson {
-    color: chartreuse;
+    color: rgb(244, 164, 59);
     font-size: 1.75rem;
     font-weight: 600;
     /* text-shadow: 2px 5px 4px whitesmoke; */
@@ -39,7 +39,7 @@
 
 .lesson-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .exercise {
-    color:brown;
+    color:rgb(244, 164, 59);
     font-size: 1.75rem;
     font-weight: 600;
     /* text-shadow: 2px 5px 4px whitesmoke; */
@@ -76,7 +76,7 @@
 
 .exercise-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
