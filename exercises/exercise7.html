@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 7</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: wheat;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border: 1px solid black;
+            border-radius: 100px;
+            margin-right: 12px;
+        }
+
+        .logo-container {
+            display: flex;
+        }
+
+        header {
+            background-color: #333;
+            width: 100%;
+            height: 8vh;
+            color: wheat;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        nav > ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav > ul > li {
+            margin: 0 35px;
+        }
+
+        nav > ul > li > a {
+            color: wheat;
+            text-decoration: none;
+        }
+
+        .hero-section {
+            display: flex;
+            margin-top: 12vh;
+        }
+
+        .hero-content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .hero-image {
+            width: 50%;
+            object-fit: cover;
+            border-top-left-radius: 10%;
+            border-bottom-left-radius: 10%;
+        }
+
+        .more-info {
+            background-color: #333;
+            color: wheat;
+            padding: 12px;
+            border-radius: 12px;
+        }
+
+        .social-media-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-media-links img {
+            width: 32px;
+            height: 32px;
+            border-radius: 12px;
+            margin: 0 12px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img id="logo" src="/assets/images/image.png" alt="logo image" />
+        <h3>Chamod Ananda</h3>
+      </div>
+
+      <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to my website</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit laborum nulla facere fugiat voluptatem, tenetur omnis explicabo. Accusantium saepe in distinctio? Nobis, voluptatum tenetur. Blanditiis aliquam, pariatur aliquid rem praesentium quibusdam optio voluptatibus voluptas dolor? Porro impedit, blanditiis possimus quibusdam, minus et sunt libero, nihil adipisci quam quasi? Excepturi eaque ipsum ea error quaerat modi autem, ducimus ab, quidem labore quisquam iste consequatur omnis dolorum quasi quae eum accusamus in dicta natus, itaque obcaecati laboriosam? Qui praesentium blanditiis voluptate earum possimus, molestiae perferendis aut pariatur accusantium ipsum tempore, ipsam doloremque quod numquam hic quasi quos? Ducimus natus nihil culpa?
+                </p>
+
+                <button class="more-info">More Info</button>
+
+                <div class="social-media-links">
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/fb.jpg" alt="fb logo">
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/github.png" alt="github logo">
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/linkedin.jpg" alt="linkedin logo">
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <img src="/assets/images/yt.png" alt="yt logo">
+                    </a>
+                </div>
+            </div>
+
+            <img class="hero-image" src="/assets/images/image.png" alt="prof image">
+        </section>
+    </main>
+  </body>
+</html>
